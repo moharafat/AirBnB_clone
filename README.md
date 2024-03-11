@@ -52,4 +52,3 @@ The **console - command interpreter -** that will be used to manage the objects 
 
 * How to use it
 * Examples
-
