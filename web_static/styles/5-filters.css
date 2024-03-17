@@ -30,12 +30,13 @@
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
-
+    
 }
-
 .amenities {
     color: black;
-
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
 }
 .locations .h3, .amenities .h3 {
     font-weight: 600;
