@@ -1,10 +1,14 @@
 .filters {
     color: white;
     height: 70px;
-    width: 100%;
+    width: 90%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     margin: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
     
 }
 .filters .search {
@@ -28,22 +32,21 @@
     width: 25%;
     border-right: 1px solid #DDDDDD;
     display: inline-block;
-    vertical-align: top;
+    margin-left: 15px;
 }
 .amenities {
     color: #484848;
     height: 100%;
     width: 25%;
     display: inline-block;
-    vertical-align: top;
+    margin-left: 15px;
 }
-.locations .h3, .amenities .h3 {
+.locations h3, .amenities h3 {
     font-weight: 600;
+    height: 5px;
 
-    padding-bottom: 0px;
-    margin-bottom: 0px;
 }
-.locations .h4, .amenities .h4 {
+.locations h4, .amenities h4 {
     font-weight: 400;
     font-size: 14px;
     padding-top: 0px;
