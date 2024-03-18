@@ -56,6 +56,13 @@
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     padding: 9px;
+    padding-bottom: 30px;
+    display: none;
+}
+/* Show the popover when hovering over the filter div */
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
 }
 .popover h2 {
 	font-size: 16px;
