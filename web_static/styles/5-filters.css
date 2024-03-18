@@ -5,9 +5,6 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     margin: auto;
-
-
-
     
 }
 .filters .search {
@@ -26,21 +23,29 @@
     opacity: 0.9; 
 }
 .locations {
-    color: black;
+    color: #484848;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
-    
+    display: inline-block;
+    vertical-align: top;
 }
 .amenities {
-    color: black;
+    color: #484848;
     height: 100%;
     width: 25%;
+    display: inline-block;
+    vertical-align: top;
 }
 .locations .h3, .amenities .h3 {
     font-weight: 600;
+
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .locations .h4, .amenities .h4 {
     font-weight: 400;
     font-size: 14px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
